@@ -1,0 +1,22 @@
+{
+  "type": "geometry",
+  "title": "等腰三角形 ABC，D 为 BC 中点",
+  "points": {
+    "A": [0, 3],
+    "B": [-2, 0],
+    "C": [2, 0],
+    "D": [0, 0]
+  },
+  "segments": [
+    ["A", "B"],
+    ["A", "C"],
+    ["B", "C"],
+    ["A", "D"]
+  ],
+  "auxiliary_segments": [],
+  "marks": [
+    { "type": "right_angle", "at": "D", "arms": ["A", "B"] },
+    { "type": "equal_length", "segments": [["A", "B"], ["A", "C"]], "tick": 1 }
+  ],
+  "labels": { "A": true, "B": true, "C": true, "D": true }
+}

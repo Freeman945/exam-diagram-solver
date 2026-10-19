@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560">
+<title>粗糙水平面上的物块</title>
+<rect width="760" height="560" fill="#ffffff"/>
+<polygon points="320.13,308.83 417.7,308.83 417.7,251.17 320.13,251.17" stroke="#1f2937" stroke-width="1.9" fill="#f3f4f6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="368.91" y="280" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" dominant-baseline="middle" font-weight="600">m</text>
+<line x1="86" y1="474" x2="133.2" y2="474" stroke="#9ca3af" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 5"/>
+<polygon points="140,474 132,477.36 132,470.64" stroke="#9ca3af" stroke-width="1" fill="#9ca3af" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="86" y1="474" x2="86" y2="426.8" stroke="#9ca3af" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 5"/>
+<polygon points="86,420 89.36,428 82.64,428" stroke="#9ca3af" stroke-width="1" fill="#9ca3af" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="152" y="474" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#9ca3af" text-anchor="middle" dominant-baseline="middle">x</text>
+<text x="86" y="408" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#9ca3af" text-anchor="middle" dominant-baseline="middle">y</text>
+<line x1="368.91" y1="251.17" x2="368.91" y2="105.31" stroke="#1d4ed8" stroke-width="2.4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="368.91,95.96 373.53,106.96 364.29,106.96" stroke="#1d4ed8" stroke-width="1" fill="#1d4ed8" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="334.19" y="55.88" width="69.44" height="18.2" rx="3" fill="#ffffff" opacity="0.85"/>
+<text x="368.91" y="65.96" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="#1d4ed8" text-anchor="middle" dominant-baseline="middle">N = 20 N</text>
+<line x1="368.91" y1="308.83" x2="368.91" y2="454.69" stroke="#b91c1c" stroke-width="2.4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="368.91,464.04 364.29,453.04 373.53,453.04" stroke="#b91c1c" stroke-width="1" fill="#b91c1c" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="329.85" y="475.96" width="78.12" height="18.2" rx="3" fill="#ffffff" opacity="0.85"/>
+<text x="368.91" y="486.04" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="#b91c1c" text-anchor="middle" dominant-baseline="middle">mg = 20 N</text>
+<line x1="417.7" y1="280" x2="537.58" y2="280" stroke="#1d4ed8" stroke-width="2.4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="546.93,280 535.93,284.62 535.93,275.38" stroke="#1d4ed8" stroke-width="1" fill="#1d4ed8" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="538.21" y="265.92" width="69.44" height="18.2" rx="3" fill="#ffffff" opacity="0.85"/>
+<text x="572.93" y="276" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="#1d4ed8" text-anchor="middle" dominant-baseline="middle">F = 10 N</text>
+<line x1="320.13" y1="280" x2="223.29" y2="280" stroke="#1d4ed8" stroke-width="2.4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="213.94,280 224.94,275.38 224.94,284.62" stroke="#1d4ed8" stroke-width="1" fill="#1d4ed8" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="157.56" y="265.92" width="60.76" height="18.2" rx="3" fill="#ffffff" opacity="0.85"/>
+<text x="187.94" y="276" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="#1d4ed8" text-anchor="middle" dominant-baseline="middle">f = 4 N</text>
+<circle cx="435.43" cy="324.35" r="2.2" stroke="#9ca3af" stroke-width="0.8" fill="#9ca3af" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="444.3" y1="324.35" x2="532.52" y2="324.35" stroke="#c2410c" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"/>
+<polygon points="541.87,324.35 530.87,328.97 530.87,319.73" stroke="#c2410c" stroke-width="1" fill="#c2410c" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="503.09" y="312.35" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="15" fill="#c2410c" text-anchor="middle" dominant-baseline="middle">a</text>
+<text x="24" y="538" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b7280" text-anchor="start" dominant-baseline="middle">取向右为正方向</text>
+<text x="24" y="26" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#1f2937" text-anchor="start" dominant-baseline="middle" font-weight="600">粗糙水平面上的物块</text>
+</svg>

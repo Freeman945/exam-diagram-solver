@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560">
+<title>圆内接三角形</title>
+<rect width="760" height="560" fill="#ffffff"/>
+<circle cx="380" cy="280" r="185.71" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="380" y="82.29" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle" dominant-baseline="middle">⊙O</text>
+<line x1="194.29" y1="280" x2="565.71" y2="280" stroke="#1f2937" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="565.71" y1="280" x2="380" y2="94.29" stroke="#1f2937" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="94.29" x2="194.29" y2="280" stroke="#1f2937" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="280" x2="194.29" y2="280" stroke="#1f2937" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="280" x2="565.71" y2="280" stroke="#1f2937" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="280" x2="380" y2="94.29" stroke="#1f2937" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="361.62,112.67 363.29,114.2 365.09,115.58 367,116.8 369.01,117.85 371.11,118.72 373.27,119.4 375.49,119.89 377.73,120.19 380,120.29 382.27,120.19 384.51,119.89 386.73,119.4 388.89,118.72 390.99,117.85 393,116.8 394.91,115.58 396.71,114.2 398.38,112.67" stroke="#b91c1c" stroke-width="1.4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="380" y="132.29" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#b91c1c" text-anchor="middle" dominant-baseline="middle">90°</text>
+<circle cx="194.29" cy="280" r="3.4" stroke="#1f2937" stroke-width="0.8" fill="#1f2937" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="176.29" y="298" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#1f2937" text-anchor="middle" dominant-baseline="middle" font-weight="600">A</text>
+<circle cx="565.71" cy="280" r="3.4" stroke="#1f2937" stroke-width="0.8" fill="#1f2937" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="583.71" y="298" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#1f2937" text-anchor="middle" dominant-baseline="middle" font-weight="600">B</text>
+<circle cx="380" cy="94.29" r="3.4" stroke="#1f2937" stroke-width="0.8" fill="#1f2937" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="380" y="76.29" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#1f2937" text-anchor="middle" dominant-baseline="middle" font-weight="600">C</text>
+<text x="24" y="28" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="17" fill="#1f2937" text-anchor="start" dominant-baseline="middle" font-weight="600">圆内接三角形</text>
+</svg>

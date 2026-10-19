@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560">
+<title>凸透镜成像</title>
+<rect width="760" height="560" fill="#ffffff"/>
+<line x1="101.79" y1="280" x2="650.56" y2="280" stroke="#6b7280" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 5"/>
+<polygon points="658.21,280 649.21,283.78 649.21,276.22" stroke="#6b7280" stroke-width="1" fill="#6b7280" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="366.75,396.58 363.49,388.25 360.27,379.93 357.13,371.6 354.11,363.27 351.25,354.95 348.58,346.62 346.14,338.29 343.97,329.96 342.07,321.64 340.49,313.31 339.24,304.98 338.34,296.65 337.79,288.33 337.61,280 337.79,271.67 338.34,263.35 339.24,255.02 340.49,246.69 342.07,238.36 343.97,230.04 346.14,221.71 348.58,213.38 351.25,205.05 354.11,196.73 357.13,188.4 360.27,180.07 363.49,171.75 366.75,163.42 366.75,163.42 370.02,171.75 373.24,180.07 376.38,188.4 379.4,196.73 382.26,205.05 384.92,213.38 387.36,221.71 389.54,230.04 391.43,238.36 393.01,246.69 394.26,255.02 395.17,263.35 395.71,271.67 395.9,280 395.71,288.33 395.17,296.65 394.26,304.98 393.01,313.31 391.43,321.64 389.54,329.96 387.36,338.29 384.92,346.62 382.26,354.95 379.4,363.27 376.38,371.6 373.24,379.93 370.02,388.25 366.75,396.58" stroke="#1f2937" stroke-width="2" fill="#dbeafe" stroke-linejoin="round" stroke-linecap="round" opacity="0.85"/>
+<line x1="366.75" y1="396.58" x2="366.75" y2="163.42" stroke="#1f2937" stroke-width="0.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="354.66" y="407.22" width="24.18" height="16.9" rx="3" fill="#ffffff" opacity="0.85"/>
+<text x="366.75" y="416.58" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#6b7280" text-anchor="middle" dominant-baseline="middle">凸透镜</text>
+<polyline points="154.79,184.62 366.75,232.31 578.72,280" stroke="#1d4ed8" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="357.45" y1="230.21" x2="359.29" y2="230.63" stroke="#1d4ed8" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="366.75,232.31 357.14,234.02 358.8,226.64" stroke="#1d4ed8" stroke-width="1" fill="#1d4ed8" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="569.41" y1="277.91" x2="571.25" y2="278.32" stroke="#1d4ed8" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="578.72,280 569.11,281.71 570.77,274.34" stroke="#1d4ed8" stroke-width="1" fill="#1d4ed8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="586.72" y="268" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#1d4ed8" text-anchor="start" dominant-baseline="middle">折射光线</text>
+<circle cx="260.77" cy="280" r="4.2" stroke="#c2410c" stroke-width="0.8" fill="#c2410c" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="260.77" y="296" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#c2410c" text-anchor="middle" dominant-baseline="middle">F</text>
+<circle cx="472.74" cy="280" r="4.2" stroke="#c2410c" stroke-width="0.8" fill="#c2410c" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="472.74" y="296" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#c2410c" text-anchor="middle" dominant-baseline="middle">F'</text>
+<text x="24" y="26" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#1f2937" text-anchor="start" dominant-baseline="middle" font-weight="600">凸透镜成像</text>
+</svg>

@@ -1,0 +1,45 @@
+{
+  "name": "exam-diagram-solver",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: photograph an exam problem, get a diagram-backed, programmatically verified, exam-style solution (拍题高分解答与自动作图助手).",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "python",
+    "schemas",
+    "locale",
+    "icon.svg",
+    "cordis.patch.yml"
+  ],
+  "scripts": {
+    "test": "node scripts/run-node-tests.mjs",
+    "test:node": "node scripts/run-node-tests.mjs",
+    "test:python": "python -m pytest tests/python -q",
+    "smoke": "node scripts/smoke-engine.mjs"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "plugin",
+    "education",
+    "diagram",
+    "sympy",
+    "exam",
+    "multimodal"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

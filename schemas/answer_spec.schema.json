@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://exam-diagram-solver.dev/schemas/answer_spec.schema.json",
+  "title": "AnswerSpec",
+  "description": "Structured exam answer: strategy, scored steps, final answer and machine-checkable verification claims.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["steps", "final_answer"],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "problem_type": { "type": "string" },
+    "strategy": { "type": "string" },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["step", "content"],
+        "properties": {
+          "step": { "type": "integer", "minimum": 1 },
+          "content": { "type": "string", "description": "What is written on the exam paper: formula, reasoning, result." },
+          "reason": { "type": "string", "description": "Why this step is valid: theorem, law, definition." },
+          "score_relevance": { "enum": ["key", "normal", "minor"] }
+        }
+      }
+    },
+    "final_answer": { "type": "string" },
+    "diagram_refs": { "type": "array", "items": { "type": "string" } },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "verification": {
+      "type": "array",
+      "description": "Machine-checkable claims the solver asserts. Each is re-evaluated independently by the Python engine.",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kind", "equation", "assignments"],
+            "properties": {
+              "kind": { "const": "equation_substitution" },
+              "equation": { "type": "string", "description": "Equation containing '=', e.g. 'x**2-5*x+6=0'. Both sides are checked separately." },
+              "assignments": {
+                "type": "object",
+                "additionalProperties": { "type": "string" }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kind", "lhs", "rhs"],
+            "properties": {
+              "kind": { "const": "identity" },
+              "lhs": { "type": "string" },
+              "rhs": { "type": "string" },
+              "variables": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kind", "expression", "variable", "claimed"],
+            "properties": {
+              "kind": { "const": "derivative" },
+              "expression": { "type": "string" },
+              "variable": { "type": "string" },
+              "claimed": { "type": "string" }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kind", "expression", "variable", "claimed"],
+            "properties": {
+              "kind": { "const": "integral" },
+              "expression": { "type": "string" },
+              "variable": { "type": "string" },
+              "claimed": { "type": "string" },
+              "lower": { "type": "string" },
+              "upper": { "type": "string" }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kind", "expression", "expected"],
+            "properties": {
+              "kind": { "const": "numeric" },
+              "expression": { "type": "string" },
+              "expected": { "type": "string" },
+              "tolerance": { "type": "number" },
+              "variables": { "type": "object", "additionalProperties": { "type": "string" } }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kind", "value", "unit", "dimension"],
+            "properties": {
+              "kind": { "const": "unit_check" },
+              "value": { "type": "string" },
+              "unit": { "type": "string" },
+              "dimension": {
+                "enum": ["length", "time", "mass", "velocity", "acceleration", "force", "energy", "power", "charge", "current", "voltage", "resistance", "capacitance", "inductance", "magnetic_field", "frequency", "pressure", "momentum", "area", "volume", "dimensionless"]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "notes": { "type": "array", "items": { "type": "string" } }
+  }
+}

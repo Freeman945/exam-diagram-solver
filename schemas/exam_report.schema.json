@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://exam-diagram-solver.dev/schemas/exam_report.schema.json",
+  "title": "ExamReport",
+  "description": "Simulated marker report. Scores are internal estimates used to drive revision; they are never presented as real exam marks.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["estimated_score", "max_score", "lost_points", "revision_required"],
+  "properties": {
+    "estimated_score": { "type": "number", "minimum": 0 },
+    "max_score": { "type": "number", "exclusiveMinimum": 0 },
+    "score_ratio": { "type": "number", "minimum": 0, "maximum": 1 },
+    "lost_points": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["reason", "estimated_loss"],
+        "properties": {
+          "reason": { "type": "string" },
+          "estimated_loss": { "type": "number", "minimum": 0 },
+          "fix": { "type": "string" }
+        }
+      }
+    },
+    "strengths": { "type": "array", "items": { "type": "string" } },
+    "revision_required": { "type": "boolean" },
+    "revision_instructions": { "type": "array", "items": { "type": "string" } },
+    "source": { "const": "internal_estimate" },
+    "notes": { "type": "array", "items": { "type": "string" } }
+  }
+}

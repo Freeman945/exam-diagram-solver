@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "title": "Exam Solver with Auto Diagrams",
+    "description": "Photograph a math or physics problem; get a structured analysis, a programmatically drawn figure when one is needed, verification, simulated marking and an exam-ready answer."
+  },
+  "tools": {
+    "solve_exam_image": "Main entry: recognize, draw, solve, verify, revise, answer",
+    "exam_engine_status": "Check Python/SymPy and model vision support"
+  }
+}

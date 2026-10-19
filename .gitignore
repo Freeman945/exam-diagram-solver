@@ -1,0 +1,46 @@
+# --- user data: never commit photos, generated runs or logs -----------------
+uploads/
+temp/
+output/
+cache/
+.env
+.env.local
+*.log
+
+# --- local run artifacts ----------------------------------------------------
+runs/
+logs/
+exports/
+*.mph
+
+# --- python ----------------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# --- node ------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+
+# --- editors / OS ----------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- development scratch (not part of the repository) ----------------------
+_probe/
+_smoke*.py
+_smoke*.png
+_smoke*.svg
+_smoke_out.txt
+_smoke_err.txt
+_vision_probe.png
+_probe.py

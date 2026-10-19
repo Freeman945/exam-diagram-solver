@@ -1,0 +1,214 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://exam-diagram-solver.dev/schemas/problem_spec.schema.json",
+  "title": "ProblemSpec",
+  "description": "Structured representation of one exam problem, produced by multimodal recognition and consumed by the solver, diagram planner and validators.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject", "problem_type", "raw_text"],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "subject": { "enum": ["math", "physics", "unknown"] },
+    "grade_level": {
+      "enum": ["primary", "middle_school", "high_school", "university", "unknown"]
+    },
+    "problem_type": {
+      "enum": [
+        "equation_solving",
+        "inequality",
+        "function_analysis",
+        "trigonometry",
+        "geometry_proof",
+        "geometry_computation",
+        "analytic_geometry",
+        "vector",
+        "solid_geometry",
+        "calculus",
+        "probability_statistics",
+        "kinematics",
+        "dynamics",
+        "work_energy",
+        "momentum",
+        "electrostatics",
+        "circuit",
+        "magnetism",
+        "electromagnetic_induction",
+        "optics",
+        "waves",
+        "experiment",
+        "other"
+      ]
+    },
+    "question_format": {
+      "enum": ["multiple_choice", "fill_blank", "written_solution", "proof", "unknown"]
+    },
+    "raw_text": { "type": "string", "description": "Best-effort transcription of the printed/handwritten text, preserving line breaks." },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text"],
+        "properties": {
+          "text": { "type": "string" },
+          "source": { "enum": ["image", "ocr", "inferred"] }
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text"],
+        "properties": {
+          "text": { "type": "string" },
+          "index": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "text"],
+        "properties": {
+          "label": { "type": "string" },
+          "text": { "type": "string" }
+        }
+      }
+    },
+    "symbols": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string" },
+          "meaning": { "type": "string" },
+          "unit": { "type": "string" },
+          "value": { "type": "string" }
+        }
+      }
+    },
+    "equations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text"],
+        "properties": {
+          "text": { "type": "string", "description": "SymPy/SymPy-parsable notation when possible, e.g. 'x**2-5*x+6=0'." },
+          "latex": { "type": "string" },
+          "role": { "enum": ["given", "target", "definition"] },
+          "label": { "type": "string" }
+        }
+      }
+    },
+    "visual_objects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "kind"],
+        "properties": {
+          "id": { "type": "string" },
+          "kind": {
+            "enum": [
+              "point",
+              "segment",
+              "line",
+              "ray",
+              "circle",
+              "arc",
+              "angle",
+              "triangle",
+              "polygon",
+              "vector",
+              "axis",
+              "object",
+              "incline",
+              "pulley",
+              "string",
+              "spring",
+              "battery",
+              "resistor",
+              "ammeter",
+              "voltmeter",
+              "switch",
+              "lamp",
+              "capacitor",
+              "inductor",
+              "lens",
+              "mirror",
+              "ray_of_light",
+              "unknown"
+            ]
+          },
+          "label": { "type": "string" },
+          "attributes": {
+            "type": "object",
+            "additionalProperties": { "type": ["string", "number", "boolean"] }
+          }
+        }
+      }
+    },
+    "visual_relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "objects"],
+        "properties": {
+          "type": {
+            "enum": [
+              "collinear",
+              "perpendicular",
+              "parallel",
+              "equal_length",
+              "point_on_segment",
+              "point_on_circle",
+              "concyclic",
+              "right_angle",
+              "angle_equals",
+              "midpoint",
+              "bisects",
+              "tangent",
+              "similar",
+              "congruent",
+              "force",
+              "velocity",
+              "current",
+              "electric_field",
+              "unknown"
+            ]
+          },
+          "objects": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "value": { "type": ["string", "number"] },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+        }
+      }
+    },
+    "requires_diagram": { "type": ["boolean", "null"] },
+    "diagram_role": { "enum": ["auxiliary", "final_answer", "both", "none", null] },
+    "diagram_type_hint": {
+      "enum": ["geometry", "coordinate", "function", "force", "circuit", "optics", "chart", "none", null]
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["issue"],
+        "properties": {
+          "issue": { "type": "string" },
+          "impact": { "type": "string" },
+          "alternative": { "type": "string" }
+        }
+      }
+    },
+    "recognition_confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+  }
+}

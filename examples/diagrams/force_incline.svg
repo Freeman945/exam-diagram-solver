@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560">
+<title>斜面上的物块</title>
+<rect width="760" height="560" fill="#ffffff"/>
+<polygon points="226.78,370.86 533.22,370.86 533.22,193.94" stroke="#6b7280" stroke-width="1.6" fill="#f9fafb" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="483.46,342.13 481.69,345.45 480.14,348.88 478.81,352.39 477.72,355.99 476.87,359.65 476.26,363.36 475.89,367.11 475.77,370.86" stroke="#6b7280" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="463.79" y="360.33" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle" dominant-baseline="middle">30°</text>
+<polygon points="376.59,236.27 341.75,256.38 361.87,291.21 396.7,271.1" stroke="#1f2937" stroke-width="1.8" fill="#f3f4f6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="369.23" y="263.74" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" dominant-baseline="middle" font-weight="600">m</text>
+<line x1="369.23" y1="293.43" x2="369.23" y2="451.67" stroke="#b91c1c" stroke-width="2.4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="369.23,461.02 364.61,450.02 373.85,450.02" stroke="#b91c1c" stroke-width="1" fill="#b91c1c" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="330.17" y="472.94" width="78.12" height="18.2" rx="3" fill="#ffffff" opacity="0.85"/>
+<text x="369.23" y="483.02" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="#b91c1c" text-anchor="middle" dominant-baseline="middle">mg = 10 N</text>
+<line x1="354.38" y1="238.03" x2="278.48" y2="106.57" stroke="#1d4ed8" stroke-width="2.4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="273.81,98.47 283.31,105.69 275.31,110.31" stroke="#1d4ed8" stroke-width="1" fill="#1d4ed8" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="221.75" y="61.87" width="78.12" height="18.2" rx="3" fill="#ffffff" opacity="0.85"/>
+<text x="260.81" y="71.95" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="#1d4ed8" text-anchor="middle" dominant-baseline="middle">N = 8.7 N</text>
+<line x1="343.52" y1="248.9" x2="230.77" y2="183.8" stroke="#1d4ed8" stroke-width="2.4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="222.67,179.13 234.51,180.62 229.89,188.63" stroke="#1d4ed8" stroke-width="1" fill="#1d4ed8" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="169.77" y="152.05" width="60.76" height="18.2" rx="3" fill="#ffffff" opacity="0.85"/>
+<text x="200.15" y="162.13" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="#1d4ed8" text-anchor="middle" dominant-baseline="middle">f = 5 N</text>
+<text x="24" y="26" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#1f2937" text-anchor="start" dominant-baseline="middle" font-weight="600">斜面上的物块</text>
+</svg>

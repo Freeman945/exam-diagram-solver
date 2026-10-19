@@ -1,0 +1,33 @@
+{
+  "problem_type": "equation_solving",
+  "strategy": "因式分解（十字相乘）",
+  "steps": [
+    {
+      "step": 1,
+      "content": "x^2 - 5x + 6 = (x-2)(x-3)",
+      "reason": "十字相乘分解因式",
+      "score_relevance": "key"
+    },
+    {
+      "step": 2,
+      "content": "所以 (x-2)(x-3) = 0",
+      "reason": "原方程等价变形",
+      "score_relevance": "normal"
+    },
+    {
+      "step": 3,
+      "content": "由零因子得 x = 2 或 x = 3",
+      "reason": "两个因式之积为零，至少一个因式为零",
+      "score_relevance": "key"
+    }
+  ],
+  "final_answer": "故 x = 2 或 x = 3。",
+  "diagram_refs": [],
+  "confidence": 0.96,
+  "verification": [
+    { "kind": "equation_substitution", "equation": "x**2-5*x+6=0", "assignments": { "x": "2" } },
+    { "kind": "equation_substitution", "equation": "x**2-5*x+6=0", "assignments": { "x": "3" } },
+    { "kind": "identity", "lhs": "x**2-5*x+6", "rhs": "(x-2)*(x-3)" },
+    { "kind": "numeric", "expression": "sqrt(16)+1", "expected": "5", "tolerance": 1e-9 }
+  ]
+}

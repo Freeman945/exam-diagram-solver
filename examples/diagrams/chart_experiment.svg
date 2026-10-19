@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560">
+<title>小车速度—时间图象</title>
+<rect width="760" height="560" fill="#ffffff"/>
+<line x1="62" y1="462.26" x2="690.35" y2="462.26" stroke="#1f2937" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="698,462.26 689,466.04 689,458.48" stroke="#1f2937" stroke-width="1" fill="#1f2937" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="90.91" y1="506" x2="90.91" y2="61.65" stroke="#1f2937" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="90.91,54 94.69,63 87.13,63" stroke="#1f2937" stroke-width="1" fill="#1f2937" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="704" y="462.26" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#1f2937" text-anchor="start" dominant-baseline="middle" font-style="italic">x</text>
+<text x="90.91" y="46" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#1f2937" text-anchor="middle" dominant-baseline="middle" font-style="italic">y</text>
+<line x1="206.55" y1="464.26" x2="206.55" y2="460.26" stroke="#1f2937" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="206.55" y="477.26" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle" dominant-baseline="middle">0.1</text>
+<line x1="322.18" y1="464.26" x2="322.18" y2="460.26" stroke="#1f2937" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="322.18" y="477.26" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle" dominant-baseline="middle">0.2</text>
+<line x1="437.82" y1="464.26" x2="437.82" y2="460.26" stroke="#1f2937" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="437.82" y="477.26" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle" dominant-baseline="middle">0.3</text>
+<line x1="553.45" y1="464.26" x2="553.45" y2="460.26" stroke="#1f2937" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="553.45" y="477.26" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle" dominant-baseline="middle">0.4</text>
+<line x1="669.09" y1="464.26" x2="669.09" y2="460.26" stroke="#1f2937" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="669.09" y="477.26" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle" dominant-baseline="middle">0.5</text>
+<line x1="62.99" y1="379.41" x2="118.83" y2="379.41" stroke="#1f2937" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="82.91" y="379.41" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b7280" text-anchor="end" dominant-baseline="middle">0.5</text>
+<line x1="62.99" y1="296.57" x2="118.83" y2="296.57" stroke="#1f2937" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="82.91" y="296.57" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b7280" text-anchor="end" dominant-baseline="middle">1</text>
+<line x1="62.99" y1="213.72" x2="118.83" y2="213.72" stroke="#1f2937" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="82.91" y="213.72" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b7280" text-anchor="end" dominant-baseline="middle">1.5</text>
+<line x1="62.99" y1="130.88" x2="118.83" y2="130.88" stroke="#1f2937" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="82.91" y="130.88" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b7280" text-anchor="end" dominant-baseline="middle">2</text>
+<text x="81.91" y="473.26" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle" dominant-baseline="middle">O</text>
+<polyline points="90.91,462.26 206.55,395.98 322.18,313.14 437.82,246.86 553.45,164.02 669.09,97.74" stroke="#1d4ed8" stroke-width="2.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="90.91" cy="462.26" r="4.2" stroke="#1d4ed8" stroke-width="0.8" fill="#1d4ed8" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="206.55" cy="395.98" r="4.2" stroke="#1d4ed8" stroke-width="0.8" fill="#1d4ed8" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="322.18" cy="313.14" r="4.2" stroke="#1d4ed8" stroke-width="0.8" fill="#1d4ed8" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="437.82" cy="246.86" r="4.2" stroke="#1d4ed8" stroke-width="0.8" fill="#1d4ed8" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="553.45" cy="164.02" r="4.2" stroke="#1d4ed8" stroke-width="0.8" fill="#1d4ed8" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="669.09" cy="97.74" r="4.2" stroke="#1d4ed8" stroke-width="0.8" fill="#1d4ed8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="677.09" y="85.74" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#1d4ed8" text-anchor="start" dominant-baseline="middle">实测</text>
+<text x="24" y="26" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#1f2937" text-anchor="start" dominant-baseline="middle" font-weight="600">小车速度—时间图象</text>
+</svg>

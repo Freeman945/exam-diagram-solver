@@ -1,0 +1,30 @@
+{
+  "subject": "math",
+  "grade_level": "middle_school",
+  "problem_type": "geometry_proof",
+  "question_format": "proof",
+  "raw_text": "如图，在△ABC中，AB=AC，D是BC的中点。求证：AD⊥BC。",
+  "conditions": [
+    { "text": "AB=AC", "source": "image" },
+    { "text": "D 是 BC 的中点", "source": "image" }
+  ],
+  "questions": [{ "text": "求证 AD⊥BC", "index": 1 }],
+  "symbols": [],
+  "equations": [],
+  "visual_objects": [
+    { "id": "A", "kind": "point", "label": "A" },
+    { "id": "B", "kind": "point", "label": "B" },
+    { "id": "C", "kind": "point", "label": "C" },
+    { "id": "D", "kind": "point", "label": "D" }
+  ],
+  "visual_relations": [
+    { "type": "equal_length", "objects": ["AB", "AC"] },
+    { "type": "midpoint", "objects": ["D", "BC"] },
+    { "type": "perpendicular", "objects": ["AD", "BC"] }
+  ],
+  "requires_diagram": null,
+  "diagram_role": null,
+  "diagram_type_hint": "geometry",
+  "uncertainties": [],
+  "recognition_confidence": 0.95
+}

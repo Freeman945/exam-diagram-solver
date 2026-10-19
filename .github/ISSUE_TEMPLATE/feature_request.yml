@@ -1,0 +1,42 @@
+name: Feature request
+description: Propose a diagram type, problem type, validator or workflow improvement
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the exam scenario, not the implementation.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Recognition / ProblemSpec
+        - Diagram DSL
+        - Renderer (geometry / function / force / circuit / optics / chart)
+        - Validator (math / physics / diagram)
+        - Examiner / revision loop
+        - Performance / cost
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behaviour
+      description: If you propose a new DiagramSpec field, show a minimal JSON example and explain how it can be validated.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I understand that new capabilities need tests and an honest status label (implemented / experimental / planned).
+          required: true

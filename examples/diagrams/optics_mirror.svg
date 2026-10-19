@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560">
+<title>平面镜反射</title>
+<rect width="760" height="560" fill="#ffffff"/>
+<line x1="380" y1="445" x2="380" y2="145" stroke="#1f2937" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="415" x2="366.5" y2="415" stroke="#6b7280" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="385" x2="366.5" y2="385" stroke="#6b7280" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="355" x2="366.5" y2="355" stroke="#6b7280" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="325" x2="366.5" y2="325" stroke="#6b7280" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="295" x2="366.5" y2="295" stroke="#6b7280" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="265" x2="366.5" y2="265" stroke="#6b7280" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="235" x2="366.5" y2="235" stroke="#6b7280" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="205" x2="366.5" y2="205" stroke="#6b7280" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="175" x2="366.5" y2="175" stroke="#6b7280" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="367.91" y="455.64" width="24.18" height="16.9" rx="3" fill="#ffffff" opacity="0.85"/>
+<text x="380" y="465" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#6b7280" text-anchor="middle" dominant-baseline="middle">平面镜</text>
+<line x1="275" y1="295" x2="470" y2="295" stroke="#9ca3af" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 5"/>
+<polyline points="155,115 380,295 605,115" stroke="#1d4ed8" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="369.46" y1="286.57" x2="374.03" y2="290.22" stroke="#1d4ed8" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="380,295 370.61,292.33 375.33,286.43" stroke="#1d4ed8" stroke-width="1" fill="#1d4ed8" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="594.46" y1="123.43" x2="599.03" y2="119.78" stroke="#1d4ed8" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="605,115 600.33,123.57 595.61,117.67" stroke="#1d4ed8" stroke-width="1" fill="#1d4ed8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="613" y="103" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#1d4ed8" text-anchor="start" dominant-baseline="middle">反射光线</text>
+<text x="395" y="265" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#1f2937" text-anchor="start" dominant-baseline="middle">法线</text>
+<text x="24" y="26" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#1f2937" text-anchor="start" dominant-baseline="middle" font-weight="600">平面镜反射</text>
+</svg>

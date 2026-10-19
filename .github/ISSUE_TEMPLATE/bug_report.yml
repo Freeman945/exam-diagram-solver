@@ -1,0 +1,56 @@
+name: Bug report
+description: Report a reproducible defect in recognition, diagramming, solving or validation
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the report. Please do **not** attach real exam papers or
+        personal information. Recreate the problem with a synthetic example or
+        describe it in text.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Include the tool name, arguments (redact paths), and the observed output.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Which stage failed?
+      options:
+        - Recognition (ProblemSpec)
+        - Diagram decision
+        - DiagramSpec / rendering
+        - Solving (AnswerSpec)
+        - Validation
+        - Examiner / scoring
+        - Installation / environment
+    validations:
+      required: true
+  - type: input
+    id: status
+    attributes:
+      label: Output of `exam_engine_status`
+      description: Paste the JSON (it contains no problem content).
+      placeholder: '{"engine": {...}, "model": {...}}'
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log lines
+      description: Stage names, error codes and timings only. Do not paste problem text.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I did not include personal data, real exam papers, or API keys.
+          required: true

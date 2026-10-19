@@ -1,0 +1,19 @@
+{
+  "subject": "math",
+  "grade_level": "high_school",
+  "problem_type": "equation_solving",
+  "question_format": "written_solution",
+  "raw_text": "解方程 x^2 - 5x + 6 = 0。",
+  "conditions": [{ "text": "x^2-5x+6=0", "source": "image" }],
+  "questions": [{ "text": "求 x 的值", "index": 1 }],
+  "options": [],
+  "symbols": [{ "name": "x", "meaning": "未知数" }],
+  "equations": [{ "text": "x**2 - 5*x + 6 = 0", "role": "given" }],
+  "visual_objects": [],
+  "visual_relations": [],
+  "requires_diagram": null,
+  "diagram_role": null,
+  "diagram_type_hint": "none",
+  "uncertainties": [],
+  "recognition_confidence": 0.97
+}

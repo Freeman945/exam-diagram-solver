@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560">
+<title>等腰三角形与中线</title>
+<rect width="760" height="560" fill="#ffffff"/>
+<line x1="380" y1="110.77" x2="105" y2="449.23" stroke="#1f2937" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="110.77" x2="655" y2="449.23" stroke="#1f2937" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="105" y1="449.23" x2="655" y2="449.23" stroke="#1f2937" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="110.77" x2="380" y2="449.23" stroke="#1f2937" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="380,436.23 367,436.23 367,449.23" stroke="#b91c1c" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="237.07" y1="275.59" x2="247.93" y2="284.41" stroke="#b91c1c" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="512.07" y1="284.41" x2="522.93" y2="275.59" stroke="#b91c1c" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="380" cy="110.77" r="3.4" stroke="#1f2937" stroke-width="0.8" fill="#1f2937" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="380" y="92.77" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#1f2937" text-anchor="middle" dominant-baseline="middle" font-weight="600">A</text>
+<circle cx="105" cy="449.23" r="3.4" stroke="#1f2937" stroke-width="0.8" fill="#1f2937" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="87" y="467.23" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#1f2937" text-anchor="middle" dominant-baseline="middle" font-weight="600">B</text>
+<circle cx="655" cy="449.23" r="3.4" stroke="#1f2937" stroke-width="0.8" fill="#1f2937" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="673" y="467.23" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#1f2937" text-anchor="middle" dominant-baseline="middle" font-weight="600">C</text>
+<circle cx="380" cy="449.23" r="3.4" stroke="#1f2937" stroke-width="0.8" fill="#1f2937" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="398" y="467.23" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#1f2937" text-anchor="middle" dominant-baseline="middle" font-weight="600">D</text>
+<text x="24" y="28" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="17" fill="#1f2937" text-anchor="start" dominant-baseline="middle" font-weight="600">等腰三角形与中线</text>
+</svg>

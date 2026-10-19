@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560">
+<title>并联电路</title>
+<rect width="760" height="560" fill="#ffffff"/>
+<line x1="130.85" y1="280" x2="130.85" y2="184" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="629.15" y1="184" x2="629.15" y2="280" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="130.85" y1="184" x2="350" y2="184" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="410" y1="184" x2="629.15" y2="184" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="377" y1="171" x2="377" y2="197" stroke="#1f2937" stroke-width="2.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="383" y1="177" x2="383" y2="191" stroke="#1f2937" stroke-width="1.4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="358" y1="184" x2="377" y2="184" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="383" y1="184" x2="402" y2="184" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="377" y="166" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#1f2937" text-anchor="middle" dominant-baseline="middle">+</text>
+<rect x="359.85" y="142.64" width="40.3" height="16.9" rx="3" fill="#ffffff" opacity="0.85"/>
+<text x="380" y="152" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#1f2937" text-anchor="middle" dominant-baseline="middle">E 3 V</text>
+<line x1="130.85" y1="280" x2="130.85" y2="280" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="629.15" y1="280" x2="629.15" y2="280" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="130.85" y1="280" x2="350" y2="280" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="410" y1="280" x2="629.15" y2="280" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="358,280 364,280 368,287 374,273 380,287 386,273 392,280 402,280" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="355.82" y="238.64" width="48.36" height="16.9" rx="3" fill="#ffffff" opacity="0.85"/>
+<text x="380" y="248" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#1f2937" text-anchor="middle" dominant-baseline="middle">R1 2 Ω</text>
+<line x1="130.85" y1="280" x2="130.85" y2="376" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="629.15" y1="376" x2="629.15" y2="280" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="130.85" y1="376" x2="350" y2="376" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="410" y1="376" x2="629.15" y2="376" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="358,376 364,376 368,383 374,369 380,383 386,369 392,376 402,376" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="355.82" y="334.64" width="48.36" height="16.9" rx="3" fill="#ffffff" opacity="0.85"/>
+<text x="380" y="344" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#1f2937" text-anchor="middle" dominant-baseline="middle">R2 4 Ω</text>
+<circle cx="130.85" cy="280" r="3.4" stroke="#1f2937" stroke-width="0.8" fill="#1f2937" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="629.15" cy="280" r="3.4" stroke="#1f2937" stroke-width="0.8" fill="#1f2937" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="24" y="26" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#1f2937" text-anchor="start" dominant-baseline="middle" font-weight="600">并联电路</text>
+</svg>

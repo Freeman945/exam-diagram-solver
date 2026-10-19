@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://exam-diagram-solver.dev/schemas/validation_report.schema.json",
+  "title": "ValidationReport",
+  "description": "Independent, mostly programmatic verification of an AnswerSpec against a ProblemSpec.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["passed", "checks"],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "passed": { "type": "boolean", "description": "True only when no check with severity=error failed." },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "passed"],
+        "properties": {
+          "name": { "type": "string" },
+          "passed": { "type": "boolean" },
+          "severity": { "enum": ["error", "warning", "info"] },
+          "details": { "type": "string" },
+          "method": { "enum": ["sympy", "numeric", "rules", "unit_analysis", "geometry"] }
+        }
+      }
+    },
+    "warnings": { "type": "array", "items": { "type": "string" } },
+    "contradictions": { "type": "array", "items": { "type": "string" } },
+    "recommended_revision": { "type": "array", "items": { "type": "string" } },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "claimed_checks": { "type": "integer", "minimum": 0 },
+        "executed_checks": { "type": "integer", "minimum": 0 },
+        "skipped_checks": { "type": "integer", "minimum": 0 }
+      }
+    }
+  }
+}

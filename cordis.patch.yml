@@ -1,0 +1,11 @@
+# exam-diagram-solver registers one Host plugin row. The plugin reads no
+# secrets and needs no build step; Python is discovered at first use.
+- insert:
+    - id: exam-diagram-solver
+      name: 'exam-diagram-solver'
+      config:
+        quality: balanced
+        answerMode: exam
+        language: zh
+        maxRevisionRounds: 2
+        maxDiagramRepairRounds: 2

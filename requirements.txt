@@ -1,0 +1,7 @@
+# Runtime dependencies for the Python engine.
+# The plugin auto-detects a Python interpreter that can `import sympy`.
+sympy>=1.12,<2
+
+# Optional: only used to render the PNG preview next to the canonical SVG.
+# Without it the engine still renders SVG and reports a warning.
+matplotlib>=3.7

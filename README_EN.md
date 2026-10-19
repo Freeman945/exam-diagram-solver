@@ -142,6 +142,8 @@ node scripts/smoke-engine.mjs         # load the plugin with a stub context
 
 Three cases have been run end to end (algebra, geometry proof, force problem). The full sweep has not been run, so no accuracy figures are published. See [docs/BENCHMARK.md](docs/BENCHMARK.md).
 
+The v0.1.0 acceptance run (9 cases, including blurred, rotated, cropped and blank images) and its defect list are in [docs/ACCEPTANCE_TEST.md](docs/ACCEPTANCE_TEST.md).
+
 ## Limitations
 
 - Correctness is not guaranteed; validation covers only what can be formalised.

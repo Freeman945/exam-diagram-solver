@@ -146,6 +146,8 @@ node scripts/smoke-engine.mjs         # 离线加载插件并探测 Python 桥
 
 端到端目前跑了 3 道题（代数、几何证明、受力分析），全部完成；全量跑批尚未进行，因此不公布准确率。过程数据见 [docs/BENCHMARK.md](docs/BENCHMARK.md)。
 
+v0.1.0 的系统验收（9 个用例，含模糊、倾斜、裁切、空白图片）与缺陷清单见 [docs/ACCEPTANCE_TEST.md](docs/ACCEPTANCE_TEST.md)。
+
 ## 已知限制
 
 - 不保证答案正确，校验只覆盖可形式化的部分。

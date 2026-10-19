@@ -1,5 +1,7 @@
 # exam-diagram-solver
 
+中文 | [English](README_EN.md)
+
 [![test](https://github.com/Freeman945/exam-diagram-solver/actions/workflows/test.yml/badge.svg)](https://github.com/Freeman945/exam-diagram-solver/actions)
 
 DeepSeek Harness 插件。输入数学或物理题的照片，输出题目结构、按需生成的图，以及经过 SymPy 与量纲校验的解答。

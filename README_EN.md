@@ -1,5 +1,7 @@
 # exam-diagram-solver
 
+[中文](README.md) | English
+
 [![test](https://github.com/Freeman945/exam-diagram-solver/actions/workflows/test.yml/badge.svg)](https://github.com/Freeman945/exam-diagram-solver/actions)
 
 A DeepSeek Harness plugin. It takes a photo of a math or physics problem and returns a structured problem model, a diagram when one is needed, and an answer checked with SymPy and dimensional analysis.
@@ -87,6 +89,8 @@ exam_render_diagram(diagram={
   "marks": [{"type": "right_angle", "at": "D", "arms": ["A","B"]}]
 })
 ```
+
+The full tool list is in [lib/tools.js](lib/tools.js).
 
 ## How it works
 
